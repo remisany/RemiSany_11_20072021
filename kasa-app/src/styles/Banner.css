@@ -1,0 +1,33 @@
+.k-banner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    height: 22.3rem;
+    position: relative;
+    margin-top: 6.3rem;
+}
+
+.k-banner-cover {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 2.5rem;
+}
+
+.k-banner-img {
+    border-radius: 2.5rem;
+}
+
+.k-banner-title {
+    color: #FFF;
+    font-size: 4.8rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media screen and (min-width: 700px) {
+
+}
