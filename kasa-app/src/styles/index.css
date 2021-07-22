@@ -8,12 +8,12 @@ html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,ifr
   color: #FF6060;
 }
 
-body {
+body main, body header {
   margin: 2rem;
 }
 
 @media screen and (min-width: 700px) {
-  body {
+  body main, body header {
     margin: 4rem 10rem;
   }
 }

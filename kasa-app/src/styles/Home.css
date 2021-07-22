@@ -1,0 +1,16 @@
+.k-card-container {
+    margin: 2.2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .k-card-container {
+        margin: 9.9rem 5rem;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 5%;
+        row-gap: 5rem;
+    }
+}
