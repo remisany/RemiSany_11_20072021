@@ -19,6 +19,3 @@ class Header extends React.Component {
 }
 
 export default Header
-
-/*<Link to = "/"><img src={logo} alt="Kasa" className="k-logo"/></Link>
-<Link to = "/" className = "k-nav-list-link" href ="index.html">accueil</Link>*/
