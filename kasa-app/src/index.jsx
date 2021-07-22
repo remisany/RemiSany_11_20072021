@@ -4,6 +4,7 @@ import {BrowserRouter as Router, Route, Switch} from "react-router-dom"
 
 import Header from "./components/Header"
 import Error from "./components/Error"
+import Footer from "./components/Footer"
 
 import Home from "./pages/Home"
 import Accomodation from "./pages/Accomodation"
@@ -29,6 +30,7 @@ ReactDOM.render(
                     <Error />
                 </Route>
             </Switch>
+            <Footer />
         </Router>
     </React.StrictMode>,
 document.getElementById('root')
