@@ -2,6 +2,9 @@ import React from "react";
 
 import "../styles/Dropdown.css"
 
+import up from "../assets/Up.svg"
+import down from "../assets/Down.svg"
+
 class Dropdown extends React.Component {
     constructor(props) {
         super(props);
@@ -19,8 +22,11 @@ class Dropdown extends React.Component {
 
         return (
             <article className = "k-dropdown">
-                <div onClick={() => this.handleClick()}>{title}</div>
-                {this.state.isClose ? null : <div>{content}</div>}
+                <div className = "k-dropdown-button" onClick={() => this.handleClick()}>
+                    {title}
+                    {this.state.isClose ? <img className = "k-dropdown-chevron" src = {down} alt = "Element décoratif : chevron bas"/> : <img className = "k-dropdown-chevron" src = {up} alt = "Element décoratif : chevron haut"/>}
+                </div>
+                {this.state.isClose ? null : <div className = "k-dropdown-content">{content}</div>}
             </article>
         )
     }

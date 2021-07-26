@@ -1,0 +1,57 @@
+.k-dropdown {
+    margin: 1.9rem 0;
+}
+
+.k-dropdown-button {
+    background: #FF6060;
+    color: #FFF;
+    font-size: 1.3rem;
+    height: 3.0rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1.1rem;
+    padding-right: 1.1rem;
+    border-radius: .5rem;
+    position: relative;
+    z-index: 2;
+}
+
+.k-dropdown-chevron {
+    width: 1.5rem;
+    height: .9rem;
+}
+
+.k-dropdown-content {
+    background: #F6F6F6;
+    border-radius: .5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-top: -.6rem;
+    padding: 2.3rem 1.1rem 1.1rem 1.1rem;
+}
+
+@media screen and (min-width: 700px) {
+    .k-dropdown {
+        margin: 3.6rem 10.8rem;
+    }
+    
+    .k-dropdown-button {
+        font-size: 2.4rem;
+        height: 4.7rem;
+        padding-left: 1.8rem;
+        padding-right: 1.8rem;
+    }
+
+    .k-dropdown-chevron {
+        width: 2.4rem;
+        height: 1.4rem;
+    }
+    
+    .k-dropdown-content {
+        font-size: 2.4rem;
+        margin-top: -.9rem;
+        padding: 3.6rem 1.8rem 1.8rem 1.8rem;
+    }
+    
+}
