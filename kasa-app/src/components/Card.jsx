@@ -11,7 +11,7 @@ class Card extends React.Component {
         return (
             <Link to = {`/accomodation/${id}`} className = "k-card">
                 <div className = "k-card-cover"></div>
-                <img src = {cover} alt = {title} className = "k-card-img"/>
+                <img src = {cover} alt = {`Photo du logement : ` + title} className = "k-card-img"/>
                 <p className = "k-card-title">{title}</p>
             </Link>
         )
