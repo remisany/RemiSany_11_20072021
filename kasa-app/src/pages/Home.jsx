@@ -1,12 +1,17 @@
+//React
 import React from "react";
 
+//Components
 import Banner from "../components/Banner";
 import Card from "../components/Card";
 
+//Assets
 import banner from "../assets/BannerHome.png"
 
+//Datas
 import { accomodationList } from "../datas/accomodationList";
 
+//CSS
 import "../styles/Home.css"
 
 class Home extends React.Component {

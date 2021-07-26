@@ -1,7 +1,11 @@
+//React
 import React from "react";
 import {Link} from "react-router-dom"
 
+//Assets
 import logo from "../assets/LogoWhite.svg"
+
+//CSS
 import "../styles/Footer.css"
 
 class Footer extends React.Component {

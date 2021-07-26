@@ -1,5 +1,7 @@
+//React
 import React from "react";
 
+//CSS
 import "../styles/Banner.css"
 
 class Banner extends React.Component {

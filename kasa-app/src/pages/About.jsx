@@ -1,8 +1,11 @@
+//React
 import React from "react";
 
+//Components
 import Banner from "../components/Banner";
 import Dropdown from "../components/Dropdown";
 
+//Assets
 import banner from "../assets/BannerAbout.png"
 
 class About extends React.Component {

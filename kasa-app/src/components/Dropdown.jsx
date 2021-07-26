@@ -1,9 +1,12 @@
+//React
 import React from "react";
 
-import "../styles/Dropdown.css"
-
+//Assets
 import up from "../assets/Up.svg"
 import down from "../assets/Down.svg"
+
+//CSS
+import "../styles/Dropdown.css"
 
 class Dropdown extends React.Component {
     constructor(props) {

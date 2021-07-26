@@ -1,6 +1,8 @@
+//React
 import React from "react";
 import {Link} from "react-router-dom"
 
+//CSS
 import "../styles/Card.css"
 
 class Card extends React.Component {

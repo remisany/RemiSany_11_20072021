@@ -1,7 +1,11 @@
+//React
 import React from "react";
 import {Link} from "react-router-dom"
 
+//Assets
 import logo from "../assets/Logo.svg"
+
+//CSS
 import "../styles/Header.css"
 
 class Header extends React.Component {
