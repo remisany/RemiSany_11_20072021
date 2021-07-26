@@ -20,7 +20,7 @@ class Home extends React.Component {
         />
         <section className = "k-card-container">
             {accomodationList.map((accomodation) => (
-              <Card
+              <Card key = {accomodation.id}
               id = {accomodation.id}
               title = {accomodation.title}
               cover = {accomodation.cover}

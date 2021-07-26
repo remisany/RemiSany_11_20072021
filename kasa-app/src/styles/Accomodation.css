@@ -1,0 +1,27 @@
+.k-title {
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+
+.k-location {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.k-tags {
+    display: flex;
+    column-gap: 1%;
+}
+
+.k-tag {
+    display: block;
+    height: 2.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    border-radius: 1rem;
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    background-color: #FF6060;
+}
