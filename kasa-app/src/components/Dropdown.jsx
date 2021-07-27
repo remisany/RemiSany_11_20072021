@@ -24,7 +24,7 @@ class Dropdown extends React.Component {
         const {title, content} = this.props
 
         return (
-            <article className = "k-dropdown">
+            <article>
                 <div className = "k-dropdown-button" onClick={() => this.handleClick()}>
                     {title}
                     {this.state.isClose ? <img className = "k-dropdown-chevron" src = {down} alt = "Element décoratif : chevron bas"/> : <img className = "k-dropdown-chevron" src = {up} alt = "Element décoratif : chevron haut"/>}

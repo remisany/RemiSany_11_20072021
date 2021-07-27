@@ -1,0 +1,29 @@
+.k-dropdown {
+    margin: 1.9rem 0;
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+}
+
+.k-dropdown-button {
+    font-size: 1.3rem;
+}
+
+.k-dropdown-content {
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 700px) {
+    .k-dropdown {
+        margin: 3.6rem 10.8rem;
+        row-gap: 3rem;
+    }
+
+    .k-dropdown-button {
+        font-size: 2.4rem;
+    }
+
+    .k-dropdown-content {
+        font-size: 2.4rem;
+    }
+}

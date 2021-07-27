@@ -8,6 +8,9 @@ import Dropdown from "../components/Dropdown";
 //Assets
 import banner from "../assets/BannerAbout.png"
 
+//CSS
+import "../styles/About.css"
+
 class About extends React.Component {
   render () {
     return (
@@ -16,7 +19,7 @@ class About extends React.Component {
           src = {banner}
           alt = "Photo de la bannière"
         />
-        <section>
+        <section className = "k-dropdown">
           <Dropdown
             title = "Fiabilité"
             content = "Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées  par nos équipes."
