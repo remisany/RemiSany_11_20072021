@@ -4,6 +4,7 @@ import React from "react";
 //CSS
 import "../styles/Banner.css"
 
+//Component Banner: display a banner photo
 class Banner extends React.Component {
     render() {
 

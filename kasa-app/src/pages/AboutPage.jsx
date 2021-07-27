@@ -11,6 +11,7 @@ import banner from "../assets/BannerAbout.png"
 //CSS
 import "../styles/About.css"
 
+//Component about: about page
 class About extends React.Component {
   render () {
     return (

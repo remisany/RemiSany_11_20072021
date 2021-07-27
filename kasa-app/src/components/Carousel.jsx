@@ -8,6 +8,8 @@ import left from "../assets/Left.svg"
 //CSS
 import "../styles/Carousel.css"
 
+
+//Component carousel: displays several photos that can be displayed using arrows
 class Carousel extends React.Component {
     constructor(props) {
         super(props);

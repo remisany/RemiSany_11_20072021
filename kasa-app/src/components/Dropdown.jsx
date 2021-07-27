@@ -8,6 +8,7 @@ import down from "../assets/Down.svg"
 //CSS
 import "../styles/Dropdown.css"
 
+//Component dropdown: menu that reveals additional content when clicked
 class Dropdown extends React.Component {
     constructor(props) {
         super(props);

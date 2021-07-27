@@ -9,9 +9,9 @@ import Error from "./components/Error"
 import Footer from "./components/Footer"
 
 //Pages
-import Home from "./pages/Home"
-import Accomodation from "./pages/Accomodation"
-import About from "./pages/About"
+import Home from "./pages/HomePage"
+import Accomodation from "./pages/AccomodationPage"
+import About from "./pages/AboutPage"
 
 //CSS
 import "./styles/index.css";

@@ -5,6 +5,7 @@ import {Link} from "react-router-dom"
 //CSS
 import "../styles/Card.css"
 
+//Component card: display a thumbnail of the accommodation with its name and photo
 class Card extends React.Component {
     render() {
 

@@ -14,6 +14,7 @@ import { accomodationList } from "../datas/accomodationList";
 //CSS
 import "../styles/Home.css"
 
+//Component home: home page
 class Home extends React.Component {
   render () {
     return (

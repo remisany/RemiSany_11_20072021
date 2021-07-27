@@ -13,8 +13,8 @@ import { accomodationList } from "../datas/accomodationList";
 //CSS
 import "../styles/Accomodation.css"
 
+//Component accomodation: accomodation page
 class Accomodation extends React.Component {
-
   render () {
     const id = this.props.match.params.id
 
@@ -34,7 +34,9 @@ class Accomodation extends React.Component {
 
     return (
       <main>
+        
         <Carousel pictures={pictures}/>
+
         <section className = "k-presentation">
           <div className = "k-presentation-left">
             <h1 className = "k-title">{title}</h1>
