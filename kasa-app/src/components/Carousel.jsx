@@ -34,8 +34,8 @@ class Carousel extends React.Component {
 
         return (
             <section className = "k-carrousel">
-                <img className = "k-carrousel-left" src = {left} alt = "Element décoratif : chevron gauche" onClick={() => this.previousPicture()}/>
-                <img className = "k-carrousel-right" src = {right} alt = "Element décoratif : chevron droit" onClick={() => this.nextPicture()}/>
+                {pictures.length > 1 && (<img className = "k-carrousel-left" src = {left} alt = "Element décoratif : chevron gauche" onClick={() => this.previousPicture()}/>)}
+                {pictures.length > 1 && (<img className = "k-carrousel-right" src = {right} alt = "Element décoratif : chevron droit" onClick={() => this.nextPicture()}/>)}
                 {pictures.map((picture, index) => (
                     <div key = {index}>
                         {index === currentIndex && (<img className = "k-carrousel-picture" src = {picture} alt = {`Photo numéro` + index + ` du logement`}/>)}
