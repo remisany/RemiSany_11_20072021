@@ -10,7 +10,7 @@
 - Découpage en composants modulaires et réutilisables.
 - Un composant par fichier.
 - Utilisation des props entre les composants.
-- Utilisation du state dans les composants quand c'est nécessair.
+- Utilisation du state dans les composants quand c'est nécessaire.
 - Gestion des événements.
 - Composants à base de classe, aucun composant fonction.
 
