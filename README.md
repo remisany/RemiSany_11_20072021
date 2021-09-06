@@ -47,7 +47,7 @@ image doit s’afficher.
 - Create React App.
 - Visual Studio Code.
 
-Projet validé le X août 2021.
+Projet validé le 30 août 2021.
 
 ### INFORMATIONS COMPLEMENTAIRES
 
